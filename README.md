@@ -593,8 +593,10 @@ def dict_length(d):
 
 input
 d = {'a': 1, 'b': 2}
-output
+output 
+
 2
+
 input
 d = {'a': 1, 'b': 2,'c':3}
 output
