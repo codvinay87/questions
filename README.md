@@ -5,7 +5,8 @@ def swap_variables(x, y):
     x, y = y, x
     return x, y
 
-# Test Cases
+Test Cases
+
 x = 10
 y = 20
 x, y = swap_variables(x, y)
@@ -17,6 +18,7 @@ y = 'world'
 x, y = swap_variables(x, y)
 assert x == 'world'
 assert y == 'hello'
+
 Q2 Write a function called is_integer that takes a variable as input and returns True if the variable is an integer and False otherwise.
 
 def is_integer(x):
